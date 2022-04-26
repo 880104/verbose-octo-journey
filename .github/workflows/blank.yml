@@ -30,3 +30,4 @@ jobs:
           cd snowflake/
           cd proxy/
           go build
+          ./proxy -verbose -unsafe-logging -summary-interval 10s
